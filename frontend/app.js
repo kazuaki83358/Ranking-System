@@ -1,4 +1,4 @@
-const API = "http://127.0.0.1:5000";
+const API = "https://ranking-system-ei2l.onrender.com";
 
 
 // ============================
