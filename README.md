@@ -44,6 +44,14 @@ Backend : Render
 Frontend : Netlify
 
 ---
+## Live Demo
+
+Frontend:
+https://rankystem.netlify.app/
+
+
+Backend:
+https://ranking-system-ei2l.onrender.com/
 
 # Project Structure
 
