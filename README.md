@@ -397,7 +397,7 @@ CI/CD
 
 # Author
 
-Nishant Rajput
+Nishant Kumar
 
 B.Tech Computer Science
 
