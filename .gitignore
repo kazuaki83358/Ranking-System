@@ -1,0 +1,15 @@
+venv/
+__pycache__/
+*.pyc
+
+backend/ranking.db
+
+.env
+
+.vscode/
+
+.idea/
+
+.DS_Store
+
+backend/instance/

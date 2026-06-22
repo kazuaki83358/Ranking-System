@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ranking System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🏆 Ranking System Dashboard</h1>
+
+        <div class="grid">
+
+            <div class="card">
+                <h2>Add Transaction</h2>
+
+                <input id="userId" placeholder="User ID">
+
+                <input id="amount" placeholder="Amount">
+
+                <input id="requestId" placeholder="Request ID">
+
+                <button onclick="addTransaction()">
+                    Add Transaction
+                </button>
+
+                <p id="message"></p>
+
+            </div>
+
+
+
+            <div class="card">
+
+                <h2>User Summary</h2>
+
+                <input id="summaryId" placeholder="User ID">
+
+                <button onclick="summary()">
+                    Get Summary
+                </button>
+
+                <div id="summaryResult"></div>
+
+            </div>
+
+        </div>
+
+
+        <div class="card">
+
+            <h2>Leaderboard</h2>
+
+            <button onclick="ranking()">
+                Refresh Rankings
+            </button>
+
+
+            <table>
+
+                <thead>
+
+                    <tr>
+
+                        <th>Rank</th>
+                        <th>User</th>
+                        <th>Total Amount</th>
+                        <th>Transactions</th>
+                        <th>Score</th>
+
+                    </tr>
+
+                </thead>
+
+
+                <tbody id="rankingBody">
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </div>
+
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
